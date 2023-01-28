@@ -1,0 +1,43 @@
+.calc{
+    width: 400px;
+    height: 360px;
+    background-color: grey;
+    margin: auto;
+}
+
+.screen{
+    width: 80%;
+    height: 50px;
+    /* margin-left: 30px; */
+    margin-top: 30px;
+    padding: 10px 10px;
+    background-color:#bccd95;
+    color:black; 
+    position: relative;
+    left: 30px;
+    /* Since its input type is text we can give the input in screen which we should disable usng the attribute pointer-events:none , now it acts as a screen*/
+    pointer-events: none;
+}
+
+.btn{
+width:60px;  
+height:30px;  
+border:none;  
+border-radius:8px;  
+margin-top: 15px;
+margin-left:30px;  
+cursor:pointer;  
+border-top:2px solid transparent;  
+}
+
+.btn-c{
+    width:60px;  
+    height:30px;  
+    border:none;  
+    border-radius:8px;  
+    margin-top: 15px;
+    margin-left:315px;  
+    cursor:pointer;  
+    border-top:2px solid transparent;  
+}
+
